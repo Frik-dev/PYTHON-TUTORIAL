@@ -5,3 +5,14 @@ Birth_year = input('Why is your birth year? ')
 AGE = 2024 - int(Birth_year)
 print(type(AGE))  # TO IDENTIFY THE TYPE YOU NEED TO USE THE type() FUNCTION
 print(AGE)
+
+# EXERCISE
+
+# WRITE A PROGRAM WHERE A USER INPUT WEIGHT IN POUNDS AND DISPLAY THE VALUE IN KILOGRAMS
+
+# SOLUTION
+
+Weight = input('ENTER YOUR WEIGHT: ')
+Weight_in_Kgs = int(Weight) * 0.45
+
+print('Your weight is ', Weight_in_Kgs, 'KGS')
